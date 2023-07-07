@@ -191,6 +191,8 @@ font-weight: 700;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
+margin-top: 0px;
+margin-bottom: 20px;
 }
 
 /* resume styles */
@@ -202,4 +204,47 @@ font-weight: 400;
   font-style: normal;
   font-weight: 700;
 
+}
+
+.resume-container{
+  display: flex;
+  gap: 50px;
+}
+
+.resume-item-title{
+  color: #474747;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+
+.resume-item-institute{
+  color: #757575;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+
+}
+
+.resume-item-description{
+  color: #757575;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.resume-container hr{
+   margin: 30px 0px;
+   background: #D1D1D1;
+   max-height: 1px;
+   max-width: 550px;
+
+}
+
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
 }
